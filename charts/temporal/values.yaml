@@ -66,13 +66,7 @@ server:
       timerType: histogram
   deploymentLabels: {}
   deploymentAnnotations: {}
-  initContainerResources:
-    limits:
-      cpu: 1
-      memory: 512Mi
-    requests:
-      cpu: 1
-      memory: 512Mi
+  initContainerResources: {}
   podAnnotations: {}
   podLabels: {}
   secretLabels: {}
