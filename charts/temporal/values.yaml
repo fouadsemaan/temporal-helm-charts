@@ -464,6 +464,7 @@ elasticsearch:
   logLevel: "error"
   username: ""
   password: ""
+  skipCheck: false
   visibilityIndex: "temporal_visibility_v1_dev"
 prometheus:
   enabled: true
